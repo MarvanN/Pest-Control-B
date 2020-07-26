@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "name": "Contact"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Email": {
+      "type": "email",
+      "required": true,
+      "unique": false
+    },
+    "Phone": {
+      "type": "biginteger"
+    }
+  }
+}
