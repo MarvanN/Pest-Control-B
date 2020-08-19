@@ -1,0 +1,93 @@
+{
+  "_args": [
+    [
+      "strapi-plugin-upload@3.1.1",
+      "/Users/marvann/Longhouse-project/longhouse-backend"
+    ]
+  ],
+  "_from": "strapi-plugin-upload@3.1.1",
+  "_id": "strapi-plugin-upload@3.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-7zv1b4VcJML9fmouJyB5T1E4nzBlc0s5uiY/baCl0KuJa1F5KZcVO05q4Mc/GNhXoAYDhThcBxQ2fvLImwjLxA==",
+  "_location": "/strapi-plugin-upload",
+  "_phantomChildren": {
+    "@babel/runtime": "7.11.0",
+    "@sindresorhus/slugify": "1.1.0",
+    "date-fns": "2.15.0",
+    "fn-name": "2.0.1",
+    "lodash": "4.17.19",
+    "lodash-es": "4.17.15",
+    "pino": "4.17.6",
+    "pluralize": "7.0.0",
+    "property-expr": "1.5.1",
+    "shelljs": "0.8.4",
+    "synchronous-promise": "2.0.13",
+    "toposort": "2.0.2"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "strapi-plugin-upload@3.1.1",
+    "name": "strapi-plugin-upload",
+    "escapedName": "strapi-plugin-upload",
+    "rawSpec": "3.1.1",
+    "saveSpec": null,
+    "fetchSpec": "3.1.1"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/strapi-plugin-upload/-/strapi-plugin-upload-3.1.1.tgz",
+  "_spec": "3.1.1",
+  "_where": "/Users/marvann/Longhouse-project/longhouse-backend",
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "dependencies": {
+    "byte-size": "^6.2.0",
+    "cropperjs": "^1.5.6",
+    "immer": "^6.0.2",
+    "immutable": "^3.8.2",
+    "is-valid-domain": "0.0.14",
+    "koa-range": "0.3.0",
+    "koa-static": "^5.0.0",
+    "lodash": "^4.17.11",
+    "node-fetch": "2.6.0",
+    "react": "^16.9.0",
+    "react-copy-to-clipboard": "^5.0.1",
+    "react-dom": "^16.9.0",
+    "react-intl": "4.5.0",
+    "react-redux": "^7.0.2",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "reactstrap": "8.4.1",
+    "sharp": "0.24.1",
+    "strapi-helper-plugin": "3.1.1",
+    "strapi-provider-upload-local": "3.1.1",
+    "strapi-utils": "3.1.1",
+    "stream-to-array": "^2.3.0",
+    "uuid": "^3.2.1"
+  },
+  "description": "This is the description of the plugin.",
+  "engines": {
+    "node": ">=10.10.0",
+    "npm": ">=6.0.0"
+  },
+  "gitHead": "35bae7df572c175b5d23fe284c2a9a5ec0630a6f",
+  "license": "SEE LICENSE IN LICENSE",
+  "maintainers": [
+    {
+      "name": "A Strapi developer"
+    }
+  ],
+  "name": "strapi-plugin-upload",
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "strapi": {
+    "name": "Media Library",
+    "icon": "cloud-upload-alt",
+    "description": "upload.plugin.description"
+  },
+  "version": "3.1.1"
+}

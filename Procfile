@@ -1,1 +1,1 @@
-web: node config/server.js
+web: node src/admin/index.html
